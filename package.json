@@ -1,0 +1,16 @@
+{
+  "name": "kericonf-clipmaker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Create MP4 clips from keri.foundation gallery clip URLs.",
+  "type": "module",
+  "bin": {
+    "clipmaker": "./clipmaker.mjs"
+  },
+  "scripts": {
+    "clip": "node ./clipmaker.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
